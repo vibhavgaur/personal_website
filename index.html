@@ -1,0 +1,167 @@
+<!-- GENERAL COMMENTS
+	Project thumbnail size : 600 px width
+	Background image size : 1400 px - 2000 px
+	------------------------------------------
+	-- For the education section, add pictures of university mascots in the background of each university section. Also make the background of the section the university's respective colors.
+	-- For the work experience section, put the company's respective logos in the background of that section (or to the side of the job summary)
+	-- for the top links, add a hover property that underlines the links when the mouse goes over them. Add more active effects while clicking
+	-- understand the divider class and fix it for the work experience and education sections
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Vibhav Gaur</title>
+		<link rel="stylesheet" type="text/css" href="css/sitewide-styles.css">
+		<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	</head>
+
+	<body>
+		<main>
+			<!-- ***********************  TITLE / SUBTITLE / TOP MENU  *********************** -->
+			<header>
+				<div class="content-wrap">
+					<h1 class="siteTitle">Vibhav Gaur</h1>
+					<p class="siteSubtitle"> M.S., B.S. Mechanical Engineering, Dynamic Systems and Control</p>
+					<p class="siteSubSubtitle">The University of Texas at Austin | University of California, Los Angeles</p>
+
+					<ul class="topMenu">
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./coursework.html">Coursework</a></li>
+						<li><a href="...">Projects</a></li>
+						<li><a href="...">Resume</a></li>
+						<li><a href="./blog.html">Blog</a></li>
+					</ul>
+				</div>
+			</header>
+
+			<!-- ***********************  ABOUT / PROFILE  *********************** -->
+			<div class="content-wrap">
+				<div class="profile">
+					<div class="profileText">
+						<p>Hello! My name is Vibhav Gaur and welcome to my website! I graduated from the University of Texas at Austin in May 2020 with a Master’s in Mechanical Engineering with a focus on Dynamic Systems and Control. Before that, I graduated with a B.S. in Mechanical Engineering from the University of California, Los Angeles (UCLA) in June 2017. Some of my academic interests include vehicle dynamics, autonomous systems, and control theory.</p>
+						<p>This website serves as a portfolio for the projects that I have been involved in and allows me to explain the work that I have done interactively and at length. It is also a place for my sporadically published blog.</p>
+					</div>
+
+					<img class="profilePicture"src="images/frontPagePicture.jpg" alt="Picture of Vibhav">
+				</div>
+			</div>    
+
+			<!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+			<section class="Projects">
+				<div class="content-wrap divider">
+					<h2>Featured Projects</h2>
+					<p>THIS SECTION IS UNDER CONSTRUCTION</p>
+					<p>View selected projects below. More information can be found in the <a href="projects.html">projects</a> section of the website.</p>
+
+					<!-- Copy the whole <section> block to add more projects. -->
+					<section class="projectItem divider">
+						<h3>Project Name</h3>
+						<img src="images/one.png" alt="description of image">
+						<p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+						<a href="#" target="_blank">View project / case study</a>
+					</section>
+					<!-- End of Project block. -->
+				</div>
+			</section>
+
+			<!-- ***********************  WORK EXPERIENCE  *********************** -->
+			<section class="WorkEx">
+				<div class="content-wrap itemDetails divider">
+					<h2>Work Experience</h2>
+					<p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+					<!-- Copy this whole <section> block to add more jobs. -->
+					<section class="jobItem">
+						<div class="jobDetails Mathworks">
+							<h3>EDG Engineer</h3>
+							<p>The MathWorks</p>
+							<p>August 2020 - present</p>
+						</div>
+						<div class="jobSummary">
+							<p>Job summary goes here. Add as many paragraphs as you need.</p>
+							<p>Optional list:</p>
+							<ul>
+								<li>Delete this list if you don't need it.</li>
+								<li>Created...</li>
+								<li>Lead...</li>
+								<li>Responsible for...</li>
+							</ul>
+						</div>
+					</section>
+
+					<section class="jobItem">
+						<div class="jobDetails Cummins">
+							<h3>Controls Test Engineer (Internship)</h3>
+							<p>Cummins</p>
+							<p>June 2019 - August 2019</p>
+						</div>
+						<div class="jobSummary">
+							<p>Job summary goes here. Add as many paragraphs as you need.</p>
+							<p>Optional list:</p>
+							<ul>
+								<li>Created a C++ library for handling J1939 messages on the CAN bus for the Fault Reduction (FRETT) project.</li>
+								<li>Automated Engine Control Module (ECM) Test Procedures using Cummins Calterm<sup>&reg</sup> and NI TestStand.</li>
+								<li>Performed low-level analysis of CAN bus messages using CANalyzer, PCANview, and oscilloscopes.</li>
+								<li>Performed complete teardown and reassembly of 9L diesel engine as part of training.</li>
+							</ul>
+						</div>
+					</section>
+					
+					<section class="jobItem">
+						<div class="jobDetails">
+							<h3>Teaching assistant / Freelance tutor</h3>
+							<p>The University of Texas at Austin</p>
+							<p>August 2018 - May 2020</p>		
+						</div>
+						<div class="jobSummary">
+							<p>Job summary goes here. Add as many paragraphs as you need.</p>
+							<p>Optional list:</p>
+							<ul>
+								<li>Teaching Assistant for the Dynamic Systems and Controls Lab taught to undergraduate Mechanical Engineers at UT Austin.</li>
+								<li>Tutored students from grades 8 through college for Maths, Physics, and Chemistry.</li>
+							</ul>
+						</div>
+					</section>
+					<!-- End of Job block. -->
+				</div>
+			</section>
+
+			<!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+			<section class="Education divider">
+				<div class="content-wrap itemDetails">
+					<h2>Education</h2>
+
+					<!-- Copy this whole <section> block to add more schools. -->
+					<section class="UTAustin">
+						<h3>The University of Texas at Austin</h3>
+						<p>M.S. Mechanical Engineering (Dynamic Systems and Control) - May 2020</p>
+						<p>GPA 3.8</p>
+					</section>
+					<section class="UCLA">
+						<h3>University of California, Los Angeles</h3>
+						<p>B.S. Mechanical Engineering - May 2017</p>
+						<p>GPA 3.3</p>
+					</section>
+				</div>
+			</section>
+			
+			<!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+			<footer>
+				<div class="content-wrap">
+					<h4>Please feel free to contact me through any of these channels!</h4>
+
+					<!-- Social media and contact links. Add or remove any networks. -->
+					<ul class="Contacts">
+						<li><a href="mailto:email@example.com">Email</a></li>
+						<li><a href="https://twitter.com/VibhavGaur" target="_blank">Twitter</a></li>
+						<li><a href="https://www.linkedin.com/in/vibhav-gaur-775815137/" target="_blank">LinkedIn</a></li>
+						<!-- <li><a href="#" target="_blank">Facebook</a></li> -->
+					</ul>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>

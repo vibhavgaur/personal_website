@@ -1,0 +1,79 @@
+/*----------Profile -------------*/
+
+.profile{
+	/*border: dashed;*/
+	display: flex;
+}
+
+.profilePicture{
+	border: solid;
+	margin-left: 10px;
+}
+
+.profileText{
+}
+
+/*----------Projects -------------*/
+.Projects{
+	clear: both;
+}
+
+/*----------Work Experience -------------*/
+.jobItem{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 10px;
+}
+.jobDetails{
+	padding: 0 15px;
+	border: dotted;
+}
+.jobSummary{
+	
+}
+
+.Mathworks{
+	background-image: url("../images/Logos/Mathworks.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.Cummins{
+	background-image: url("../images/Logos/Cummins_alpha.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/*----------Education -------------*/
+
+.UTAustin{
+	background: rgba(255,165,0,40%); /*orange*/
+}
+
+.UCLA{
+	background: rgba(255,215,0,40%); /*gold*/
+}
+
+/*----------Contact -------------*/
+footer{
+	text-align: center;
+}
+
+.Contacts{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.Contacts a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+}
+.Contacts a:hover{
+	color: white;
+	background: black;
+	border-radius: 4px;
+}

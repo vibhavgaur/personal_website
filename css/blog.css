@@ -1,0 +1,49 @@
+/*----------Page Title -------------*/
+
+/*----------Blog List -------------*/
+/*Typesetting the Latex Logo*/
+.latex sub, .latex sup {
+  text-transform: uppercase;
+}
+.latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+.latex, .latex sub {
+  font-size: 1em;
+}
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+
+
+
+/*----------Contact -------------*/
+footer{
+	text-align: center;
+}
+
+.Contacts{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.Contacts a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+}
+.Contacts a:hover{
+	color: white;
+	background: black;
+	border-radius: 4px;
+}
